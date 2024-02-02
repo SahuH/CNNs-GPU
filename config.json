@@ -1,0 +1,26 @@
+{
+    "convolution":
+      {
+        "input_shape": [1, 32, 32, 3],
+        "n_layers": 2,
+        "kernel_size": [3, 3],
+        "n_filters": 32,
+        "stride": [1,1],
+        "activation": "relu"
+      },
+>>>>>>> d7d22ab (Added final pytorsch script)
+
+    "pooling":
+    {
+      "n_layers": 1,
+      "kernel_size": [2, 2],
+      "stride": [2,2]
+    },
+
+    "dense":
+    {
+      "n_layers": 2,
+      "n_units": 128,
+      "activation": "relu"
+    }
+}
